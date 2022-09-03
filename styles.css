@@ -1,8 +1,8 @@
-@import url(_global.css);
-@import url(_bebidas.css);
-@import url(_contato.css);
-@import url(_lanches.css);
-@import url(_login.css);
-@import url(_promocao.css);
-@import url(_signup.css);
-@import url(_sacola.css);
+@import './global.css';
+@import './bebidas.css';
+@import './contato.css';
+@import './lanches.css';
+@import './login.css';
+@import './promocao.css';
+@import './signup.css';
+@import './sacola.css';
