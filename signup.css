@@ -54,10 +54,26 @@ h1 {
     .sign {
     margin-left: 295px;
     }
+    #signup .bebidas-header {
+        height: 400px;
+    }
+    #signup .footer .home-rede h1 {
+        display: none;
+    }
+    #signup .footer .home-rede  {
+        display: grid;
+        margin-left: 280px;
+    }
 }
 
 @media (max-width:500px) {
     .sign {
     margin-left: 95px;
     }
+    #signup .footer .home-rede  {
+
+        margin-left: 80px;
+    }
 }
+
+

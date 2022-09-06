@@ -82,7 +82,7 @@ a.botao {
     .home-header h1 {
         display: flex;
         flex-wrap: wrap;
-        width: 900px;
+        width: 100%;
         height: auto;
         margin: 0 auto;
     
@@ -94,11 +94,30 @@ a.botao {
 
 @media (max-width: 800px) {
     .home-header {
-        width: 800px;
+        width: 100%;
         height: auto;
     }
     .home-nav {
-        display: block;
+        display: grid;
+    }
+    .home-nav img {
+        padding: 20px;
+        width: 50%;
+        height: 80px;
+    }
+    .home-setor li {
+        display: flex;
+    }
+    .home-setor li a {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    img.vector {
+        display: none;
+    }
+    
+    .fav {
+        display: none;
     }
     
     .home-header h1 {
@@ -115,8 +134,10 @@ a.botao {
         width: 500px;
     }
     .home-nav img {
-        width: 207px;
-        height: 58px;
+        padding: 20px;
+        width: 70%;
+        height: 80px;
+        margin-left: 10px;
     }
     .home-setor {
         display: block;
@@ -312,7 +333,7 @@ a.botao {
 
 @media (max-width: 1100px) {
     .home-promo {
-        width: 1000px;  
+        width: 100%;  
     }
     .home-promo h1 {
         width: 812px; 
@@ -322,6 +343,7 @@ a.botao {
         margin: 180px auto;
         width: 247px;   
     }
+   
 }
 
 @media (max-width: 700px) {
@@ -408,16 +430,12 @@ a.botao {
     color: var(--titulo-banner);
 }
 
-
 .home-rede img {
     padding: 20px 0 0 95px;
     margin-top: 0px;
     gap: 20px;
 
 }
-
-
-
 
 .home-news {
     display: grid;
@@ -461,12 +479,24 @@ a.botao {
 
 }
 
-@media (max-width: 1220px) {
+@media (max-width: 1120px) {
     .footer {
-        width: auto; 
+        width: 100%; 
     }
     .home-news {
        display: none;
     }  
+    #promocao .footer .home-rede h1 {
+        display: none;
+    }
+    #promocao .footer .home-rede  {
+        display: grid;
+        margin-left: 280px;
+    }
 }
+@media (max-width:500px) {
+    #promocao .footer .home-rede  {
 
+        margin-left: 80px;
+    }
+}

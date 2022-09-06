@@ -180,9 +180,39 @@
         margin-top: -40px;
         margin-left: 30px;
     }
+    #sacola .bebidas-header {
+        height: 300px;
+    }
+    #sacola .home-setor .btn-ligado {
+        display: none;
+    }
+    #sacola .home-setor {
+        margin-left: 100px;
+    }
+    #sacola .footer .home-rede h1 {
+        display: none;
+    }
+    #sacola .footer .home-rede  {
+        display: grid;
+        margin-left: 280px;
+    }
     
 }
+@media (max-width:500px) {
+    #sacola .bebidas-header {
+        height: 400px;
+    }
+    #sacola .home-setor {
+        margin-left: 0px;
+    }
+    #sacola .home-setor .btn-ligado {
+        display: none;
+    }
+    #sacola .footer .home-rede  {
 
+        margin-left: 80px;
+    }
+}
 
 
 

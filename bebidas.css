@@ -15,6 +15,25 @@
     .home-header {
         width: auto;
     }
+    #bebidas .bebidas-header {
+        padding-bottom: 40px;
+        width: auto;
+        height: 100px;
+    }
+    #bebidas .bebidas-sabor h1 {
+        margin-top: 30px;
+    }
+    #bebidas .bebidas-sabor {
+        grid-template-columns: auto;
+        
+    }
+    #bebidas .bebidas-setor  {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    #bebidas .home-setor {
+        margin-right: 0px;
+    }
     .home-setor {
         margin-right: 300px;
     }
@@ -24,18 +43,47 @@
     .home-header {
         width: auto;
     }
+    #bebidas .bebidas-header {
+        height: 300px;
+    }
+    #bebidas .home-setor {
+        margin-left: 100px;
+    }
     .bebidas-header .home-nav img {
         width: 300px;
     }
     .home-setor a {
         display: none;
         
+    } 
+    #bebidas .footer .home-rede h1 {
+        display: none;
+    }
+    #bebidas .footer .home-rede  {
+        display: grid;
+        margin-left: 280px;
     }
 }
 
 @media (max-width: 500px) {
     .bebidas-header .home-nav {
         margin-bottom: 40px;
+    }
+    #bebidas .bebidas-header {
+        height: 400px;
+    }
+    #bebidas .home-setor {
+        margin-left: 0px;
+    }
+    #bebidas .bebidas-sabor h1 {
+        margin-top: 50px;
+        display: block;
+        margin-left: 0px;
+    }
+    #bebidas .bebidas-setor  {
+        width: 100%;
+        margin-bottom: 20px;
+        margin-left: -50px;
     }
     .bebidas-header .home-nav img {
         width: 200px;
@@ -47,6 +95,11 @@
     header .bebidas-header .home-setor {
         margin-bottom: 60px;
     }
+    #bebidas .footer .home-rede  {
+
+        margin-left: 80px;
+    }
+
 }
     
    
